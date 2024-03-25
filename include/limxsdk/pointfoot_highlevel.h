@@ -51,10 +51,10 @@ namespace limxsdk {
 
        /**
        * @brief This method should specify the operations to be performed before using the object in the main function.
-       * @param robot_ip_address The IP address of the robot, default set to "192.168.1.2".
+       * @param robot_ip_address The IP address of the robot, default set to "10.192.1.2".
        * @return True if initialized successfully, otherwise false.
        */
-      bool init(const std::string& robot_ip_address = "192.168.1.2");
+      bool init(const std::string& robot_ip_address = "10.192.1.2");
 
       /**
        * @brief Publishes a twist command to control the robot's actions.
